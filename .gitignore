@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables — NEVER commit your real API key
+.env.local
+.env
+
+# OS
+.DS_Store
+Thumbs.db
