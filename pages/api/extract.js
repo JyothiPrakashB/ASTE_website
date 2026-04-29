@@ -33,7 +33,7 @@ Respond ONLY with a valid JSON object, no markdown, no explanation, no preamble:
 
   try {
     const response = await fetch(
-      "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions",
       {
         method: "POST",
         headers: {
