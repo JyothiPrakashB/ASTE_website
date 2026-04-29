@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,300&family=Syne:wght@400;500;600;700;800&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0a0a0f;
+  --surface: #12121a;
+  --surface2: #1c1c28;
+  --border: #2a2a3a;
+  --border-bright: #3a3a52;
+  --text: #e8e8f0;
+  --text-muted: #7a7a96;
+  --text-dim: #4a4a64;
+  --accent: #c8b4ff;
+  --accent-glow: rgba(200, 180, 255, 0.12);
+
+  --pos: #4ade80;
+  --pos-bg: rgba(74, 222, 128, 0.08);
+  --pos-border: rgba(74, 222, 128, 0.25);
+
+  --neg: #f87171;
+  --neg-bg: rgba(248, 113, 113, 0.08);
+  --neg-border: rgba(248, 113, 113, 0.25);
+
+  --neu: #fbbf24;
+  --neu-bg: rgba(251, 191, 36, 0.08);
+  --neu-border: rgba(251, 191, 36, 0.25);
+
+  --highlight-aspect: rgba(139, 92, 246, 0.35);
+  --highlight-opinion-pos: rgba(74, 222, 128, 0.3);
+  --highlight-opinion-neg: rgba(248, 113, 113, 0.3);
+  --highlight-opinion-neu: rgba(251, 191, 36, 0.3);
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Syne', sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#__next {
+  min-height: 100vh;
+}
